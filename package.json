@@ -32,6 +32,7 @@
     "dev:style": "postcss 'style/**/[^_]*' --dir _site --watch",
     "fix": "eslint --fix .",
     "format": "prettier --write '**/*.{js,json,md,njk,scss,yaml}'",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint:rdjson": "eslint --format rdjson ."
   }
 }
