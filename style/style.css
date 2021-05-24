@@ -1,0 +1,9 @@
+@import "./_variables";
+
+:root {
+  background-color: var(--color-background);
+
+  p {
+    color: red;
+  }
+}
