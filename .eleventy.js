@@ -23,5 +23,5 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addPlugin(CacheBuster({}));
   }
   // NOTE: This option will copy not only templates
-  eleventyConfig.setTemplateFormats(["js", "mp4", "webm"]);
+  eleventyConfig.setTemplateFormats(["md", "njk", "js", "mp4", "webm"]);
 };
