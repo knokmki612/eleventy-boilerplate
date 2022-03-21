@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 14
       - uses: reviewdog/action-setup@v1
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         with:
           path: node_modules
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
